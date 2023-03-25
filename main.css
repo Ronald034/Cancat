@@ -1,0 +1,58 @@
+:root {
+    --color-primario: #4cda00c1;
+  }
+
+@font-face {
+    font-family: "Holyfat";
+    src: url(./fonts/Holyfat.ttf);
+}
+
+
+li:hover{
+    text-decoration: underline;
+}
+
+a:hover{
+    background: var(--color-primario) !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 2px !important;
+    border-color: black !important;
+}
+
+:root{
+    --fontmain: 'Holyfat', sans-serif;
+}
+
+h3{
+    font-family: var(--fontmain);
+    text-transform: capitalize;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: var(--fontmain);
+    text-transform: capitalize;
+}
+
+body{
+    background: url(./image/fondo1.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-green{
+    background: var(--color-primario);
+
+}
+
+.text-green{
+    color: var(--color-primario);
+}
